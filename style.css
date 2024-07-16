@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0%;
+    background-color: lightblue;
+}
+.one{
+    display: inline-block;
+    padding: 30px;
+}
+.one:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.logo{
+    display: inline;
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+ul{
+    display: inline;
+    width:fit-content;
+    padding-left: 60%;
+}
+.name{
+    font-size: xx-large;
+    display: inline-block;
+    padding-inline-start: 0%;
+    padding-left: 100px;
+    height: 30px;
+    text-shadow: 2px 2px 2px;
+}
+.my{
+    display: inline;
+    padding-inline-end: 0%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-width: 50px;
+    padding-left: 40%;
+    padding-right: 60%;
+}
+.about{
+    text-align: center;
+    padding-top: 40px;
+    padding: 40px;
+}
+.container1{
+    width: 80%;
+    margin: 0 auto;
+    font-size: x-large;
+    color: #151515;
+    box-shadow: 3px 3px 6px;
+    padding: 10px;
+}
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#skills ul li {
+    background: rgb(21,21,21);
+background: radial-gradient(circle, rgba(21, 21, 21, 0.656) 0%, rgba(169, 29, 57, 0.656) 100%); 
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #EEEEEE;
+}
+.container1{
+    padding: 4%;
+}
